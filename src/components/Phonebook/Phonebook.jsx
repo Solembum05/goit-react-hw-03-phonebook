@@ -8,6 +8,7 @@ class Phonebook extends React.Component {
     number: '',
   };
 
+
   handleInputChange = e => {
     const { name, value } = e.currentTarget;
 
